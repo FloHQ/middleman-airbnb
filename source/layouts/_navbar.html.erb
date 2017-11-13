@@ -1,13 +1,12 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <img src="images/logo.png" alt="logo">
+    <%= image_tag "images/logo.png", alt: "logo" %>
   </a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <a href="/team.html" class="navbar-wagon-item navbar-wagon-link">Da Team</a>
+    <%= link_to "Meet the team", "team.html", class: "btn btn-primary" %>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="/about.html" class="navbar-wagon-item navbar-wagon-link">about</a>
